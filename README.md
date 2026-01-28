@@ -216,3 +216,23 @@ curl -X PUT http://localhost:3003/drivers/test-location/driver_001 \
   }'
 ```
 
+## Testing with curl (Deployed URL)
+
+## Thay http://localhost:3003 bằng https://bigdt-driver-service.onrender.com
+
+Get driver by ID (mock/test)
+
+####  Get mock driver data
+```bash
+curl https://bigdt-driver-service.onrender.com/drivers/mock
+```
+
+####  Update driver information
+```bash
+curl -X PUT https://bigdt-driver-service.onrender.com/drivers/test-update/driver_001 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Nguyen Van A Updated",
+    "email": "driver@updated.com"
+  }'
+```
