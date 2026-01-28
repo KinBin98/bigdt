@@ -218,7 +218,7 @@ curl -X PUT http://localhost:3003/drivers/test-location/driver_001 \
 
 ## Testing with curl (Deployed URL)
 
-## Thay http://localhost:3003 bằng https://bigdt-driver-service.onrender.com
+##  http://localhost:3003 => https://bigdt-driver-service.onrender.com
 
 Get driver by ID (mock/test)
 
